@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' https://appsforoffice.microsoft.com; script-src 'self' https://appsforoffice.microsoft.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:;">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add to Obsidian</title>
+  <link rel="stylesheet" href="taskpane.css">
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <script src="config.js"></script>
+  <script defer src="taskpane.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Add to Obsidian</h1>
+    <p class="sub">Create a scheduled task from the open Outlook email.</p>
+
+    <label for="action">Task</label>
+    <input id="action" type="text" autocomplete="off">
+
+    <label for="date">Scheduled date</label>
+    <input id="date" type="date">
+
+    <label class="check">
+      <input id="includeContext" type="checkbox" checked>
+      Include sender and subject
+    </label>
+
+    <button id="addButton" type="button">Add task to Obsidian</button>
+    <button id="copyButton" type="button" class="secondary">Copy Obsidian link</button>
+
+    <p id="status" role="status"></p>
+
+    <details>
+      <summary>Email details</summary>
+      <dl>
+        <dt>From</dt><dd id="from"></dd>
+        <dt>Subject</dt><dd id="subject"></dd>
+        <dt>Received</dt><dd id="received"></dd>
+      </dl>
+    </details>
+  </main>
+</body>
+</html>
