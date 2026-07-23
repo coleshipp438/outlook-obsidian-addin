@@ -10,11 +10,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Add to Obsidian"/>
   <Description DefaultValue="Create an Obsidian task from the selected Outlook email."/>
-  <IconUrl DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/outlook-obsidian-addin/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/outlook-obsidian-addin/icon-128.png"/>
-  <SupportUrl DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/outlook-obsidian-addin/"/>
+  <IconUrl DefaultValue="https://coleshipp438.github.io/outlook-obsidian-addin/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://coleshipp438.github.io/outlook-obsidian-addin/icon-128.png"/>
+  <SupportUrl DefaultValue="https://coleshipp438.github.io/outlook-obsidian-addin/"/>
   <AppDomains>
-    <AppDomain>https://YOUR-GITHUB-USERNAME.github.io</AppDomain>
+    <AppDomain>https://coleshipp438.github.io</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -27,7 +27,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/outlook-obsidian-addin/taskpane.html"/>
+        <SourceLocation DefaultValue="https://coleshipp438.github.io/outlook-obsidian-addin/taskpane.html"/>
         <RequestedHeight>450</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -76,13 +76,13 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16" DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/outlook-obsidian-addin/icon-16.png"/>
-        <bt:Image id="Icon.32" DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/outlook-obsidian-addin/icon-32.png"/>
-        <bt:Image id="Icon.80" DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/outlook-obsidian-addin/icon-80.png"/>
+        <bt:Image id="Icon.16" DefaultValue="https://coleshipp438.github.io/outlook-obsidian-addin/icon-16.png"/>
+        <bt:Image id="Icon.32" DefaultValue="https://coleshipp438.github.io/outlook-obsidian-addin/icon-32.png"/>
+        <bt:Image id="Icon.80" DefaultValue="https://coleshipp438.github.io/outlook-obsidian-addin/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/outlook-obsidian-addin/taskpane.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/outlook-obsidian-addin/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://coleshipp438.github.io/outlook-obsidian-addin/taskpane.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://coleshipp438.github.io/outlook-obsidian-addin/taskpane.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Group.Label" DefaultValue="Obsidian"/>
